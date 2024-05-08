@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    height: 100%;
+}
+
+main {
+    height: 900px;
+    width: 100%;
+    background-color: rgb(222, 232, 231)!important;
+}
+
+.cartA {
+    height: 350px;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cartB {
+    display: flex;
+    height: 300px;
+    width: 1150px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.secimg {
+    height: 240px;
+    width: 350px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.secimg img {
+    background-size: cover;
+    height: 240px;
+    width: 350px;
+    border-radius: 8px;
+}
+
+.secpre {
+    height: 240px;
+    width: 690px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: white;
+}
+
+.secpre h3 {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.secpre a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(24, 109, 162);
+}
+
+.secpre a:hover {
+    color: indianred;
+    text-decoration: underline indianred;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+button {
+    height: 35px;
+    background-color: rgb(255, 221, 0);
+    border-radius: 8px;
+    width: 190px;
+    font-size: 1rem;
+    border: yellow;
+    margin-left: 10px;
+}
+
+#but2 {
+    height: 35px;
+    background-color: white;
+    border-radius: 8px;
+    width: 190px;
+    font-size: 1rem;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+.pace {
+    height: 100px;
+    width: 1150px;
+    background-color: white;
+}
+
+.pace1 {
+    height: 500px;
+    margin-top: 20px;
+    width: 1150px;
+    background-color: white;
+}

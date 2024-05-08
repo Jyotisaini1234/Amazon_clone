@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery location</title>
+    <link rel="icon" href="image/alogo.png">
+    <style>
+        body {
+            margin: auto;
+            margin-top: 100px;
+            height: 570px;
+            width: 460px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .hidde {
+            border-radius: 8px;
+            margin: auto;
+            margin-top: 30px;
+            height: 500px;
+            border: 1px solid rgb(35, 35, 35);
+            width: 410px;
+            background-color: white;
+            color: black;
+        }
+        
+        .location {
+            text-align: center;
+            height: 40px;
+            width: 450px;
+            background-color: white;
+        }
+        
+        .delivery {
+            margin-left: 30px;
+            color: rgb(129, 128, 128);
+        }
+        
+        .sign {
+            height: 40px;
+            width: 340px;
+            margin: auto;
+            margin-left: 40px;
+            background-color: rgb(255, 208, 0);
+            border-radius: 8px;
+            border: none;
+        }
+        
+        .hr {
+            display: flex;
+            height: 20px;
+        }
+        
+        h5 {
+            align-items: center;
+            text-align: center;
+        }
+        
+        .search {
+            height: 30px;
+            width: 220px;
+            margin-top: 30px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        
+        .search1 {
+            height: 30px;
+            width: 100px;
+            margin-top: 30px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        
+        .button2 {
+            height: 90px;
+            width: 100%;
+        }
+        
+        .button2 h4 {
+            margin-left: 40px;
+        }
+        
+        .but {
+            margin-top: 20px;
+            height: 30px;
+            width: 310px;
+            margin-left: 10px;
+            text-align: center;
+            font-size: 1rem;
+        }
+        
+        .done {
+            height: 40px;
+            width: 100px;
+            margin: auto;
+            margin-left: 260px;
+            background-color: rgb(255, 208, 0);
+            border-radius: 8px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="hidde">
+        <h3 class="location">Choose your location</h3>
+        <hr>
+
+
+        <h4 class="delivery" aria-hidden="true">Delivery options and delivery speeds may vary for different locations</h4>
+        <button class="sign" type="button" value="sign" name="button">Sign in to see your address</button>
+        <h5>
+            ---------------------or enter a US zip code-----------------------------
+            <div class="button">
+                <label for="search"></label>
+                <input type="search" class="search" placeholder=" Address ">
+                <label for="search"></label>
+                <input type="search" class="search1" placeholder="Apply">
+            </div>
+        </h5>
+        <div class="button2">
+            <h4> ----------------------------or------------------------------
+                <input type="search" placeholder="INDIA" class="but">
+
+            </h4>
+            <a href="index.html"> <button type="button" class="done">Done</button></a>
+
+        </div>
+    </form>
+</body>
+
+</html>
